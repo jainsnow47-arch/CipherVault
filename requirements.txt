@@ -1,0 +1,6 @@
+customtkinter==6.0.0
+darkdetect==0.8.0
+packaging==26.2
+pillow==12.2.0
+pycryptodome==3.23.0
+pyperclip==1.11.0
