@@ -24,13 +24,6 @@ The project demonstrates the implementation of **AES-256**, **DES**, and **RSA**
 
 ![AES](screenshots/aes.png)
 
-## 🔑 RSA Encryption
-
-![RSA](screenshots/rsa.png)
-
-## 🔒 DES Encryption
-
-![DES](screenshots/des.png)
 
 ---
 
