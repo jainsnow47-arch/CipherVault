@@ -1,32 +1,49 @@
 # 🔐 CipherVault
 
-A modern desktop application for secure text encryption and decryption using **AES-256**, **DES**, and **RSA** algorithms. Built with **Python** and **CustomTkinter**, CipherVault provides a clean, user-friendly interface to learn and experiment with cryptography.
+**CipherVault** is a desktop-based encryption application developed as part of my **Cyber Security Internship at Pinnacle Labs Pvt. Ltd.**
+
+The project demonstrates the implementation of **AES-256**, **DES**, and **RSA** cryptographic algorithms through a modern desktop application built with **Python** and **CustomTkinter**. It enables users to securely encrypt and decrypt text while providing a clean, interactive interface for learning and experimenting with encryption techniques.
 
 ---
 
-## 📸 Screenshots
+# 🏢 Internship
 
-### 🏠 Home Screen
-
-![Home Screen](screenshots/home.png)
-
-### 🔐 AES Encryption
-
-![AES Encryption](screenshots/aes.png)
-
+* **Organization:** Pinnacle Labs Pvt. Ltd.
+* **Role:** Cyber Security Intern
+* **Project:** CipherVault – Multi-Algorithm Encryption Tool
 
 ---
 
-## 🎥 Project Demo
+# 📸 Screenshots
 
-📹 **Watch the complete project demonstration:**
+## 🏠 Home Screen
+
+![Home](screenshots/home.png)
+
+## 🔐 AES Encryption
+
+![AES](screenshots/aes.png)
+
+## 🔑 RSA Encryption
+
+![RSA](screenshots/rsa.png)
+
+## 🔒 DES Encryption
+
+![DES](screenshots/des.png)
+
+---
+
+# 🎥 Project Demo
+
+Watch the complete project demonstration here:
 
 **Google Drive:**
 https://drive.google.com/file/d/1QlY5QZdt4VX2Doie_CsgBx1jdQBbbbIM/view?usp=sharing
 
 ---
 
-## ✨ Features
+# ✨ Features
 
 * 🔐 AES-256 Encryption & Decryption
 * 🔑 DES Encryption & Decryption
@@ -38,7 +55,7 @@ https://drive.google.com/file/d/1QlY5QZdt4VX2Doie_CsgBx1jdQBbbbIM/view?usp=shari
 
 ---
 
-## 🛠 Tech Stack
+# 🛠️ Tech Stack
 
 * Python
 * CustomTkinter
@@ -48,15 +65,29 @@ https://drive.google.com/file/d/1QlY5QZdt4VX2Doie_CsgBx1jdQBbbbIM/view?usp=shari
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```text
 CipherVault/
 │
 ├── algorithms/
+│   ├── aes_cipher.py
+│   ├── des_cipher.py
+│   └── rsa_cipher.py
+│
 ├── assets/
+│   ├── logo.png
+│   └── icon.ico
+│
 ├── screenshots/
+│   ├── home.png
+│   ├── aes.png
+│   ├── des.png
+│   └── rsa.png
+│
 ├── utils/
+│   └── file_handler.py
+│
 ├── main.py
 ├── ui.py
 ├── requirements.txt
@@ -65,7 +96,7 @@ CipherVault/
 
 ---
 
-## 🚀 Installation
+# 🚀 Installation
 
 ```bash
 git clone https://github.com/jainsnow47-arch/CipherVault.git
@@ -79,29 +110,32 @@ python main.py
 
 ---
 
-## 📚 What I Learned
+# 📚 Learning Outcomes
 
-* Python GUI Development
+During this project, I gained practical experience in:
+
 * Cryptography Fundamentals
 * AES, DES & RSA Algorithms
+* Python GUI Development
 * File Handling
 * Object-Oriented Programming
+* Secure Application Development
 * Git & GitHub Workflow
 
 ---
 
-## 🔮 Future Improvements
+# 🔮 Future Improvements
 
 * File Encryption
 * Folder Encryption
-* Password Generator
+* Password Strength Analyzer
 * SHA-256 Hash Generator
-* Theme Switching
 * Windows Executable (.exe)
+* Theme Switching
 
 ---
 
-## 👨‍💻 Developer
+# 👨‍💻 Developer
 
 **Snow Jain**
 
@@ -109,4 +143,4 @@ B.Tech Computer Science Engineering Student
 
 Interested in **Cybersecurity, Python Development, Artificial Intelligence, and Backend Development.**
 
-⭐ If you found this project useful, consider giving it a **Star** on GitHub!
+If you found this project interesting, consider giving it a ⭐ on GitHub!
